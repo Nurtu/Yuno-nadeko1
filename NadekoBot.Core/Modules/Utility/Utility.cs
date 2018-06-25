@@ -236,9 +236,9 @@ namespace NadekoBot.Modules.Utility
 
             await Context.Channel.EmbedAsync(
                 new EmbedBuilder().WithOkColor()
-                    .WithAuthor(eab => eab.WithName($"NadekoBot v{StatsService.BotVersion}")
-                                          .WithUrl("http://nadekobot.readthedocs.io/en/latest/")
-                                          .WithIconUrl("https://nadeko-pictures.nyc3.digitaloceanspaces.com/_other/avatar.png"))
+                    .WithAuthor(eab => eab.WithName($"YunoBot v{StatsService.BotVersion}")
+                                          .WithUrl("https://github.com/zfbx/YunoBot")
+                                          .WithIconUrl("https://cdn.discordapp.com/avatars/440233687468998656/ec0bcf87709284a3f718cc9733fd5b26.png"))
                     .AddField(efb => efb.WithName(GetText("author")).WithValue(_stats.Author).WithIsInline(true))
                     .AddField(efb => efb.WithName(GetText("botid")).WithValue(_client.CurrentUser.Id.ToString()).WithIsInline(true))
                     .AddField(efb => efb.WithName(GetText("shard")).WithValue($"#{_client.ShardId} / {_creds.TotalShards}").WithIsInline(true))

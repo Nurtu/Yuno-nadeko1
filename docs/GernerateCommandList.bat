@@ -1,0 +1,2 @@
+node GenerateCommandList.js
+PAUSE
