@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <RuntimeFrameworkVersion>2.0.0</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion>2.1.4</RuntimeFrameworkVersion>
     <OutputType>exe</OutputType>
     <ApplicationIcon>nadeko_icon.ico</ApplicationIcon>
     <LangVersion>latest</LangVersion>
@@ -40,7 +40,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.1.4" />
   </ItemGroup>
 
   <ItemGroup>
