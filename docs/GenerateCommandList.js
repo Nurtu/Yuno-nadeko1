@@ -22,7 +22,7 @@ for (var key in cmds) {
         }
         cl += `</div><div class="usage"><span class="cell-parts">`;
         for (var l = 0; l < cmds[key][i]["Usage"].length; l++) {
-            cl += `<span class="cell-part">${cmds[key][i]["Usage"][k]}</span>`;
+            cl += `<span class="cell-part">${cmds[key][i]["Usage"][l]}</span>`;
         }
         cl += `</span></div></div>`;
         console.log(`Added Command #${num}`);
