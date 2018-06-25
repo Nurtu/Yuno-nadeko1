@@ -3222,22 +3222,23 @@
     ]
   },
   "timelyset": {
-    "cmd": "timelyset",
-    "desc": "Sets the 'timely' currency allowance amount for users. Second parameter is period in hours, default is 24 hours.",
+    "cmd": "timelyset dailyset",
+    "desc": "Sets the daily currency allowance amount for users. Second parameter is period in hours, default is 24 hours.",
     "usage": [
       "{0}timelyset 100",
       "{0}timelyset 50 12"
     ]
   },
   "timely": {
-    "cmd": "timely",
-    "desc": "Use to claim your 'timely' currency. Bot owner has to specify the amount and the period on how often you can claim your currency.",
+    "cmd": "timely daily",
+    "desc": "Use to claim your daily currency.",
     "usage": [
-      "{0}timely"
+      "{0}timely",
+      "{0}daily"
     ]
   },
   "timelyreset": {
-    "cmd": "timelyreset",
+    "cmd": "timelyreset dailyreset",
     "desc": "Resets all user timeouts on `{0}timely` command.",
     "usage": [
       "{0}timelyreset"
