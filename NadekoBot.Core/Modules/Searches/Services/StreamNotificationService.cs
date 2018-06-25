@@ -322,7 +322,6 @@ namespace NadekoBot.Modules.Searches.Services
                 embed.WithThumbnailUrl(status.Icon);
 
             if (!string.IsNullOrWhiteSpace(status.Preview)) {
-                //Prevent Discord from caching preview by appending random version string
                 Random rnd = new Random(); 
                 embed.WithImageUrl(status.Preview + "?v=" + rnd.Next(100000).ToString());
             }
