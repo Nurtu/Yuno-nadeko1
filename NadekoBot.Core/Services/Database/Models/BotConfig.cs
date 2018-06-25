@@ -58,7 +58,7 @@ For a specific command help, use `{1}h CommandName` (for example {1}h {1}q)
 
 
 **LIST OF COMMANDS CAN BE FOUND ON THIS LINK**
-<https://nadekobot.me/commands>
+<http://yuno.bunny.cc/commands/>
 ";
 
         public int MigrationVersion { get; set; }
@@ -72,8 +72,8 @@ For a specific command help, use `{1}h CommandName` (for example {1}h {1}q)
         public int PermissionVersion { get; set; } = 2;
         public string DefaultPrefix { get; set; } = ".";
         public bool CustomReactionsStartWith { get; set; } = false;
-        public int XpPerMessage { get; set; } = 3;
-        public int XpMinutesTimeout { get; set; } = 5;
+        public int XpPerMessage { get; set; } = 1;
+        public int XpMinutesTimeout { get; set; } = 1;
         public HashSet<LoadedPackage> LoadedPackages { get; set; } = new HashSet<LoadedPackage>();
         public int DivorcePriceMultiplier { get; set; } = 150;
         public float PatreonCurrencyPerCent { get; set; } = 1.0f;

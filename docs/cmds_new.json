@@ -1905,11 +1905,13 @@
   "Gambling": [
     {
       "Aliases": [
-        ".timely"
+        ".timely",
+        ".daily"
       ],
-      "Description": "Use to claim your 'timely' currency. Bot owner has to specify the amount and the period on how often you can claim your currency.",
+      "Description": "Use to claim your daily currency.",
       "Usage": [
-        ".timely"
+        ".timely",
+        ".daily"
       ],
       "Submodule": "Gambling",
       "Module": "Gambling",
@@ -1918,11 +1920,13 @@
     },
     {
       "Aliases": [
-        ".timelyreset"
+        ".timelyreset",
+        ".dailyreset"
       ],
-      "Description": "Resets all user timeouts on `.timely` command.",
+      "Description": "Resets all user timeouts on .daily command.",
       "Usage": [
-        ".timelyreset"
+        ".timelyreset",
+        ".daily"
       ],
       "Submodule": "Gambling",
       "Module": "Gambling",
@@ -1933,12 +1937,14 @@
     },
     {
       "Aliases": [
-        ".timelyset"
+        ".timelyset",
+        ".dailyset"
       ],
-      "Description": "Sets the 'timely' currency allowance amount for users. Second parameter is period in hours, default is 24 hours.",
+      "Description": "Sets the daily currency allowance amount for users. Second parameter is period in hours, default is 24 hours.",
       "Usage": [
         ".timelyset 100",
-        ".timelyset 50 12"
+        ".timelyset 50 12",
+        ".dailyset 10 24"
       ],
       "Submodule": "Gambling",
       "Module": "Gambling",
