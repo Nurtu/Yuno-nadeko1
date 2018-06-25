@@ -1,8 +1,4 @@
-#Yuno Documentation
-
-To invite public Yuno to your server, contact Tony#1275 and ask.
-
-[Commands List][cmd_list]
+##[Commands List - Click Here][cmd_list]
 
 Yuno is a bot built off of [NadekoBot][GitHub] which is an open source project.
 
@@ -29,3 +25,6 @@ Here you can read current [Issues][Issues].
 [GitHub]: https://github.com/Kwoth/NadekoBot
 [Issues]: https://github.com/zfbx/Yuno/issues
 [cmd_list]: https://yuno.bunny.cc/commands
+
+
+*To invite Yuno to your server, contact Tony#1275
