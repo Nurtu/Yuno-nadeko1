@@ -69,9 +69,10 @@ namespace NadekoBot.Core.Services.Database
                     new RaceAnimal { Icon = "🐧", Name = "Pengu" },
                     new RaceAnimal { Icon = "🐨", Name = "Koala" },
                     new RaceAnimal { Icon = "🐬", Name = "Dolphin" },
-                    new RaceAnimal { Icon = "🐞", Name = "Ladybird" },
+                    new RaceAnimal { Icon = "🐞", Name = "Ladybug" },
                     new RaceAnimal { Icon = "🦀", Name = "Crab" },
-                    new RaceAnimal { Icon = "🦄", Name = "Unicorn" }
+                    new RaceAnimal { Icon = "🦄", Name = "Unicorn" },
+                    new RaceAnimal { Icon = "🐇", Name = "Bunny" }
                 });
                 bc.EightBallResponses.AddRange(new HashSet<EightBallResponse>
                 {
@@ -152,10 +153,10 @@ namespace NadekoBot.Core.Services.Database
             var botConfigEntity = modelBuilder.Entity<BotConfig>();
 
             botConfigEntity.Property(x => x.XpMinutesTimeout)
-                .HasDefaultValue(5);
+                .HasDefaultValue(1);
 
             botConfigEntity.Property(x => x.XpPerMessage)
-                .HasDefaultValue(3);
+                .HasDefaultValue(1);
 
             botConfigEntity.Property(x => x.PatreonCurrencyPerCent)
                 .HasDefaultValue(1.0f);
