@@ -251,7 +251,7 @@
   },
   "addcustreact": {
     "Cmd": "addcustreact acr",
-    "Desc": "Add a custom reaction with a trigger and a response. Running this command in server requires the Administration permission. Running this command in DM is Bot Owner only and adds a new global custom reaction. Guide here: <http://nadekobot.readthedocs.io/en/latest/Custom%20Reactions/>",
+    "Desc": "Add a custom reaction with a trigger and a response. Running this command in server requires the Administration permission. Running this command in DM is Bot Owner only and adds a new global custom reaction. Guide here: <https://yuno.bunny.cc/Custom%20Reactions.html>",
     "Usage": [
       "{0}acr \"hello\" Hi there %user%"
     ]
@@ -2388,7 +2388,7 @@
   },
   "eventstart": {
     "Cmd": "eventstart",
-    "Desc": "Starts one of the events as seen on public nadeko. Events: `reaction`",
+    "Desc": "Starts an event giving out rewards. Events: `reaction`",
     "Usage": [
       "{0}eventstart reaction",
       "{0}eventstart reaction -d 1 -a 50 --pot-size 1500"
